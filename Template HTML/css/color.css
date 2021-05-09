@@ -1,0 +1,61 @@
+/* default color: #47a6db */
+#mainmenu li li a:hover,
+.blog-list .date,
+.blog-read .date,
+.slider-info .text1,
+#filters a.selected,
+span.overlay,
+.btn-primary,
+.bg-id-color,
+#mainmenu a:hover,
+.small-border,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+.dropcap,
+a.btn-slider.solid,
+.social-icons i,
+#mainmenu a:hover,
+#mainmenu a.active
+ {
+	background:#47a6db;
+}
+
+.feature-box i,
+.feature-box-small-icon i,
+#mainmenu li:hover > ul,
+.date-box .day,
+.slider_text h1,
+.id-color,
+.pricing-box li h1,
+.title span,
+a, a:visited,
+i.large:hover,
+.feature-box-small-icon-2 i,
+address span i,
+.pricing-dark .pricing-box li.price-row
+{
+	color:#47a6db;
+}
+
+.feature-box i,
+.feature-box-small-icon i,
+#filters a:hover,
+#filters a.selected,
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+
+	border-color:#47a6db;
+}
+
+.callbacks_nav {
+	background-color:#47a6db;
+}
