@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "startTwo": "webpack-dev-server --open --hot --mode development",
-    "build": "react-scripts build",
+    "build": "webpack",
     "buildTwo": "webpack --config webpack.config.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -52,6 +52,7 @@
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.4",
     "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.1",
     "postcss": "^8.2.15",
     "postcss-loader": "^5.2.0",
