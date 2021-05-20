@@ -29,11 +29,11 @@ module.exports = {
       { test: /\.html$/, loader: 'html-loader' },
     ],
   },
-  // plugins: [
-  //   new HtmlWebpackPlugin({
-  //     template: __dirname + '/Template HTML/index.html',
-  //     filename: 'index.html',
-  //     inject: 'body',
-  //   }),
-  // ],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: __dirname + '/Template HTML/index.html',
+      filename: 'index.html',
+      inject: 'body',
+    }),
+  ],
 };

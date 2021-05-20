@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "html-webpack-plugin": "^5.3.1",
     "mini-css-extract-plugin": "^1.6.0",
     "postcss-import": "^14.0.2",
     "react": "^17.0.2",
@@ -15,9 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "startTwo": "webpack-dev-server --open --hot --mode development",
+    "dev": "webpack-dev-server --open --hot --mode development",
     "build": "webpack",
-    "buildTwo": "webpack --config webpack.config.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -53,13 +53,11 @@
     "css-loader": "^5.2.4",
     "file-loader": "^6.2.0",
     "html-loader": "^2.1.2",
-    "html-webpack-plugin": "^5.3.1",
     "postcss": "^8.2.15",
     "postcss-loader": "^5.2.0",
     "style-loader": "^2.0.0",
     "url-loader": "^4.1.1",
-    "webpack": "^5.37.0",
-    "webpack-cli": "^4.7.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack": "^4.20.2",
+    "webpack-cli": "^4.7.0"
   }
 }
