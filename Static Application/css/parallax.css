@@ -1,0 +1,62 @@
+/* -------------------------------------------------- */
+/* section settings and parralax */
+/* -------------------------------------------------- */
+section{
+padding:90px 0 90px 0;
+}
+#testimonial-full{
+background:#116493;
+}
+#subheader{
+background:url(../images/bg-subheader-1.jpg) top fixed;
+}
+
+
+/* -------------------------------------------------- */
+/* light template */
+.light #page-pricing{
+background:url(../images/bg-blur-1-light.jpg) top fixed;
+}
+.light  #page-contact{
+background:url(../images/bg-blur-2-light.jpg) top fixed;
+}
+.light  #page-why-choose-us{
+background:url(../images/bg-blur-3-light.jpg) top fixed;
+}
+.light  #logo-full{
+background:#bbb;
+}
+.light  #page-include{
+	background:#064406;
+}
+
+
+
+/* -------------------------------------------------- */
+/* dark template */
+.dark section{
+background:#1A1A1A;
+color:#ccc;
+}
+.dark #page-pricing{
+background:url(../images/bg-blur-1.jpg) top fixed;
+}
+.dark  #page-contact{
+background:url(../images/bg-blur-2.jpg) top fixed;
+}
+.dark  #page-why-choose-us{
+background:url(../images/bg-blur-3.jpg) top fixed;
+}
+.dark  #logo-full{
+background:#111;
+}
+.dark #page-include{
+	background:#2079ab;
+}
+
+
+.transparent{
+	background:url(../images/dotblack40.png) !important;
+}
+
+

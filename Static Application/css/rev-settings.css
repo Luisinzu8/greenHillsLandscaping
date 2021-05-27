@@ -1,0 +1,156 @@
+o/***********************
+	-	BASICS 	-
+***********************/
+html {
+	overflow-x:hidden;
+	padding: 0 !important;
+	background:#fff;
+	margin:0px !important;
+}
+
+
+.fullwidthbanner-container{
+		width:100% !important;
+		position:relative;
+		padding:0;
+		overflow:hidden;
+		color:#fff;
+}
+
+#revolution-slider{
+	font-family:Raleway;
+}
+
+.tp-caption{
+	font-size:14px;
+	font-weight:300;
+}
+
+.tp-caption.teaser{
+	font-size:15px;
+	letter-spacing:2px;
+}
+
+.tp-caption br{
+	margin-bottom:5px;
+}
+
+.tparrows{ top:50% !important;}
+
+.med{
+	font-size:24px;
+	letter-spacing:-.5px;
+}
+
+
+.med-white{
+	color:#fff;
+	font-size:24px;
+	letter-spacing:-.5px;
+}
+.med-green{
+	color:#1a8b49;
+	font-size:24px;
+	letter-spacing:-.5px;
+}
+.small-white{
+	color:#fff;
+	line-height:1.7em;
+}
+
+.big-black{
+	font-size:52px;
+	letter-spacing:-3px;
+	color:#222;
+}
+
+.big-white{
+	font-size:18px;
+	color:#fff;
+	line-height:normal;
+}
+
+
+
+.very-big-white{
+	text-transform:uppercase;
+	font-size:72px;
+	color:#fff;
+	line-height:normal;
+}
+
+.very-big-black{
+	font-size:84px;
+	letter-spacing:-5px;
+	font-weight:bold;
+	color:#333;
+}
+
+.ultra-big-white{
+	font-family:'Montserrat';
+	text-transform:uppercase;
+	font-size:96px;
+	letter-spacing:6px;
+	font-weight:700;
+	color:#fff;
+	margin:0;
+	padding:20px;
+	line-height:72px;
+	border:solid 6px rgba(255, 255, 255, .1);
+	margin:10px;
+}
+
+
+.block{
+	display:inline-block;
+	font-size:20px;
+	color:#fff;
+	padding:8px 12px 8px 12px;
+}
+
+.block-black{
+	display:inline-block;
+	font-size:20px;
+	background:#333;
+	color:#fff;
+	padding:8px 12px 8px 12px;
+}
+
+.fullwidthbanner-container a.btn{
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#fff !important;
+	font-weight:700;
+	padding:10px 20px 10px 20px;
+	border-radius:0;
+	-moz-border-radius:0;
+	background:none;
+	-webkit-border-radius:0;
+	border:solid 1px #fff !important;
+}
+
+a.btn-slider {
+	font-size:14px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#fff !important;
+	font-weight:700;
+	padding:10px 20px 10px 20px;
+	border-radius:0;
+	-moz-border-radius:0;
+	background:none;
+	-webkit-border-radius:0;
+	border:solid 1px #fff;
+	margin:0 auto;
+	display:inline-block;
+}
+
+a.btn-slider:hover{
+	color:#fff;
+}
+
+a.btn-slider.solid{
+	padding:12px 22px 12px 22px;
+	border:none;
+}
+
